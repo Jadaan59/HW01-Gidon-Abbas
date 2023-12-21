@@ -4,10 +4,12 @@ public class Triangle {
       int a = Integer.parseInt(args[0]);
       int b = Integer.parseInt(args[1]);
       int c = Integer.parseInt(args[2]);
-      boolean length; 
+      boolean length; // What is the defenetion of length?
 
         length = (a+b>c && a+c>b && b+c>a && b+a>c && c+b>a && c+a>b);
 
-System.out.println(length);
-                            }
+                // The all combenations of the sides of the triangle. 
+
+    System.out.println( a + ", " + b + ", " + c + ": " + length);
+  }
 }
